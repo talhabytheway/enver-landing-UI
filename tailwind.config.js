@@ -12,6 +12,9 @@ module.exports = {
         'mont': ['Montserrat', 'sans-serif'],
         'nunito': ['Nunito Sans', 'sans-serif'],
       },
+      screens: {
+        'xxl': '1600px',
+      },
     },
   },
   plugins: [],
