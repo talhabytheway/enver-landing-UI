@@ -7,9 +7,9 @@ import Contact from './modules/Contact'
 import Footer from './modules/Footer'
 function App() {
   return (
-    <>
-      <Header/>
-    <div className="mx-[1.5rem] md:mx-[3rem] lg:mx-[6rem] xxl:mx-auto font-mono lg:max-w-[1280px] font-nunito">
+    <div>
+     <Header className="relative"/>
+    <div className="mx-[1.5rem] md:mx-[3rem] lg:mx-[6rem] xxl:mx-auto max-w-[1280px] font-nunito">
       <Hero/>
       <Video/>
       <Services/>
@@ -17,7 +17,7 @@ function App() {
       <Contact/>
       <Footer/>
     </div>
-    </>
+    </div>
   );
 }
 

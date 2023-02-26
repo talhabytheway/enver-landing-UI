@@ -5,6 +5,7 @@
 
 body {
   margin: 0;
+  overflow-x:clip;
   background-color: #19191B;
   color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, 'Open Sans';

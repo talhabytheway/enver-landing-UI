@@ -13,7 +13,8 @@ module.exports = {
         'nunito': ['Nunito Sans', 'sans-serif'],
       },
       screens: {
-        'xxl': '1600px',
+        'xxl': '1440px',
+        'xxxl': '1600px',
       },
     },
   },
