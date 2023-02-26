@@ -3,7 +3,7 @@ import hero from "../../assets/heroImg.png";
 import zigzag from "../../assets/vectorZigZag.png";
 import circle from "../../assets/vectorCircle.png";
 import play from "../../assets/vectorPlay.png";
-import arrow from "../../assets/arrowIcon.png";
+import arrow from "../../assets/arrowIcon.svg";
 import add from "../../assets/add.png";
 import pink from "../../assets/rectPink.svg";
 import blue from "../../assets/rectBlue.svg";
