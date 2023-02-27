@@ -22,12 +22,12 @@ function Services() {
        <img
         src={blobR}
         alt=""
-        className="z-[-1] absolute top-[400px] right-[-24px] md:right-[-48px] lg:right-[-96px] xl:right-[-200px] overflow-hidden"
+        className="z-[-1] absolute top-[400px] right-[-24px] md:right-[-48px] lg:right-[-86px] xl:right-[-150px]  overflow-hidden"
       />
       <img
         src={rectO}
         alt=""
-        className="z-[-1] absolute top-0 md:top-[-200px] lg:top-[-400px] right-[-24px] md:right-[-48px] lg:right-[-96px] xl:right-[-200px] overflow-hidden"
+        className="z-[-1] absolute top-0 md:top-[-200px] lg:top-[-400px] right-[-24px] md:right-[-48px] lg:right-[-86px] xl:right-[-150px]  overflow-hidden"
       />
       <img
         src={add}
