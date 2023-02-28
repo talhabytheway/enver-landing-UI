@@ -13,6 +13,34 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.rec-arrow:hover, .rec-arrow:focus {
+  background: #5454D4 !important
+}
+
+
+.rec-dot {
+  border-radius: 50%;
+  background: #121213 !important;
+}
+.rec-dot_active {
+  background:#5454D4 !important;
+  opacity: .5 !important;
+  box-shadow: 0 0 1px 3px #5454D4 !important;
+  border-radius: 10px !important;
+  width: 20px !important; 
+}
+
+@media screen and (max-width: 884px) {
+  .rec-dot, .rec-dot_active {
+    visibility: hidden !important;
+  }
+}
+@media screen and (min-width: 885px) {
+  .rec-arrow {
+    display: none !important;
+  }
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
