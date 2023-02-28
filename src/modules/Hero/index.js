@@ -10,7 +10,7 @@ import blue from "../../assets/rectBlue.svg";
 
 function Hero() {
   return (
-    <div className="lg:flex lg:justify-between">
+    <div id="home" className="lg:flex lg:justify-between">
       <section className="lg:w-[80%] lg:max-w-[600px] xl:max-w-[650px] xxxl:max-w-[700px] lg:my-10 relative">
       <img src={blue} alt="" className="z-[-100] absolute top-[-150px] left-[-50px] lg:top-[-200px] lg:left-[-100px] opacity-80  blur-md sm:w-[100%] md:min-w-[769px] lg:min-w-[900px] lg:max-w-[50vw] " />
         <h1 className="text-[2.5rem] md:text-[4rem] lg:text-[5rem] font-mont font-bold leading-[150%] md:leading-[120%]">

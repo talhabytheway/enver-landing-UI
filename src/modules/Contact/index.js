@@ -5,7 +5,7 @@ import add from "../../assets/add.png";
 
 function Contact() {
   return (
-    <div className="w-full bg-light">
+    <div id="about" className="w-full bg-light">
     <div className="xl:mx-auto px-[1.5rem] md:px-[3rem] lg:px-[6rem] lg:max-w-[1440px] py-10 pb-20 lg:pb-10">
       <div className="relative w-full flex lg:flex-row flex-col items-center justify-between  ">
         <h3 className="py-10 lg:py-20  text-[2.5rem] md:text-[3rem] lg:text-[4rem] font-mont font-bold leading-snug lg:w-[70%]">

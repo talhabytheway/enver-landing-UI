@@ -15,7 +15,7 @@ const breakPoints = [
 
 function Portfolio() {
   return (
-    <div className="relative">
+    <div id="projects" className="relative pb-20">
       <div className="relative">
         <img
           src={circle}

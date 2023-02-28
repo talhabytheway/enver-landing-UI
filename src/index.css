@@ -13,6 +13,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.active {
+  color: #5454D4 !important;
+  opacity: 1 !important;
+}
+
 .rec-arrow:hover, .rec-arrow:focus {
   background: #5454D4 !important
 }

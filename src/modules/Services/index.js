@@ -13,7 +13,7 @@ import blobR from "../../assets/serviceBlobRight.svg";
 
 function Services() {
   return (
-    <div className="py-10 relative">
+    <div id="services" className="py-10 relative">
       <img
         src={blob}
         alt=""
