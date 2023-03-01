@@ -2,10 +2,13 @@ import React from "react";
 import zigzag from "../../assets/vectorZigZag.png";
 import circle from "../../assets/vectorCircle.png";
 import Carousel from "react-elastic-carousel";
-import Item from "./Item";
+import ItemT from "./ItemT";
+import ItemC from "./ItemC";
+import ItemB from "./ItemB";
 import interior from '../../assets/portfolioInterior.png'
 import digi from '../../assets/portfolioDigi.png'
 import squid from '../../assets/portfolioSquid.png'
+// import {Item} from './Item'
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
@@ -27,16 +30,16 @@ function Portfolio() {
         </h3>
       </div>
       <div>
-      <Carousel breakPoints={breakPoints} className="">
-        <Item><img src={interior} alt="" /></Item>
-        <Item><img src={digi} alt="" /></Item>
-        <Item><img src={squid} alt="" /></Item>
-        <Item><img src={interior} alt="" /></Item>
-        <Item><img src={digi} alt="" /></Item>
-        <Item><img src={squid} alt="" /></Item>
-        <Item><img src={interior} alt="" /></Item>
-        <Item><img src={digi} alt="" /></Item>
-        <Item><img src={squid} alt="" /></Item>
+      <Carousel breakPoints={breakPoints}>
+        <ItemT><img src={interior} alt="" /></ItemT>
+        <ItemC><img src={digi} alt="" /></ItemC>
+        <ItemB><img src={squid} alt="" /></ItemB>
+        <ItemT><img src={interior} alt="" /></ItemT>
+        <ItemC><img src={digi} alt="" /></ItemC>
+        <ItemB><img src={squid} alt="" /></ItemB>
+        <ItemT><img src={interior} alt="" /></ItemT>
+        <ItemC><img src={digi} alt="" /></ItemC>
+        <ItemB><img src={squid} alt="" /></ItemB>
         </Carousel>
       </div>
       <img
