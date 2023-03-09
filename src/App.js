@@ -1,10 +1,10 @@
-import Header from "./modules/Header/";
-import Hero from "./modules/Hero";
-import Video from "./modules/Video";
-import Services from "./modules/Services";
-import Portfolio from "./modules/Portfolio";
-import Contact from "./modules/Contact";
-import Footer from "./modules/Footer";
+import Header from "./modules/Header/Header";
+import Hero from "./modules/Hero/Hero";
+import Video from "./modules/Video/Video";
+import Services from "./modules/Services/Services";
+import Portfolio from "./modules/Portfolio/Portfolio";
+import Contact from "./modules/Contact/Contact";
+import Footer from "./modules/Footer/Footer";
 function App() {
   return (
     <div>
