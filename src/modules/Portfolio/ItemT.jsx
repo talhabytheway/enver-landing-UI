@@ -6,7 +6,7 @@ export default styled.div`
   align-items: start;
   width: 100%;
   margin: 10px;
-  @media (min-width: 886px) {
+  @media (min-width: 884px) {
     height: 600px;
   }
  `;

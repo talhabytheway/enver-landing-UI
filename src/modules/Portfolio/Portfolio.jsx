@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import zigzag from "../../assets/vectorZigZag.png";
 import circle from "../../assets/vectorCircle.png";
 import Carousel from "react-elastic-carousel";
@@ -16,6 +16,7 @@ const breakPoints = [
 ];
 
 function Portfolio() {
+  const carouselRef = useRef(null);
   return (
     <div id="projects" className="relative pb-20">
       <div className="relative">
@@ -29,7 +30,7 @@ function Portfolio() {
         </h3>
       </div>
       <div>
-      <Carousel breakPoints={breakPoints}>
+      <Carousel breakPoints={breakPoints} ref={carouselRef}>
         <ItemT><img src={interior} alt="" /></ItemT>
         <ItemC><img src={digi} alt="" /></ItemC>
         <ItemB><img src={squid} alt="" /></ItemB>
@@ -40,6 +41,10 @@ function Portfolio() {
         <ItemC><img src={digi} alt="" /></ItemC>
         <ItemB><img src={squid} alt="" /></ItemB>
         </Carousel>
+        <div className="flex justify-center rec-custom">
+        <span onClick={() => carouselRef.current.slidePrev()} className="inline-block h-[50px] w-[50px] m-2 rounded-full bg-blue text-white text-[26px] text-center pt-[6px]">{'❮'}</span>
+        <span onClick={() => carouselRef.current.slideNext()} className="inline-block h-[50px] w-[50px] m-2 rounded-full bg-blue text-white text-[26px] text-center pt-[6px]">{'❯'}</span>
+        </div>
       </div>
       <img
         src={zigzag}

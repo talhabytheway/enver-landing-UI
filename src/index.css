@@ -35,16 +35,20 @@ body {
   width: 20px !important; 
 }
 
-@media screen and (max-width: 884px) {
+@media screen and (min-width: 884px) {
+  .rec-custom {
+    visibility: hidden;
+  }
+}
+@media screen and (max-width: 883px) {
   .rec-dot, .rec-dot_active {
     visibility: hidden !important;
   }
 }
-@media screen and (min-width: 885px) {
   .rec-arrow {
     display: none !important;
   }
-}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
