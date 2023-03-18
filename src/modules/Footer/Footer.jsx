@@ -10,10 +10,10 @@ function Footer() {
           Support
         </span>
         <span>
-          Terms and Condition
+          Privacy Policy
         </span>
         <span>
-          Privacy Policy
+          Terms and Condition
         </span>
       </div>
       <div className="text-center mt-4 md:mt-0">© 2020 Enver, All Rights Reserved</div>
