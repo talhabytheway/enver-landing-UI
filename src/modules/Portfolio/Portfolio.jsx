@@ -23,9 +23,9 @@ function Portfolio() {
         <img
           src={circle}
           alt=""
-          className="absolute bottom-0 right-0 h-[42px] md:h-[60px]  rotate-[-12deg]"
+          className="absolute bottom-4 md:bottom-0 xl:bottom-8 right-0 h-[42px] md:h-[60px]  rotate-[-12deg]"
         />
-        <h3 className="py-10 lg:py-20 text-[2.5rem] md:text-[3rem] lg:text-[4rem] font-mont font-bold leading-snug w-[95%]">
+        <h3 className="!pt-24 py-[58px] lg:py-[70px] text-[36px] md:text-[46px] xl:text-[58px] font-mont font-bold leading-snug w-[95%]">
           Our Awesome Portofolio
         </h3>
       </div>
@@ -49,7 +49,7 @@ function Portfolio() {
       <img
         src={zigzag}
         alt=""
-        className="absolute bottom-0 left-0 h-[18px] md:h-[28px]"
+        className="absolute bottom-14 left-0 h-[18px] md:h-[28px]"
       />
     </div>
   );

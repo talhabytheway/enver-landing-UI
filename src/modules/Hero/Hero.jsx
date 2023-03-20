@@ -33,15 +33,15 @@ function Hero() {
           <img
             src={zigzag}
             alt=""
-            className="z-[-1] absolute top-0 left-0 md:left-[-30px] h-[18px] md:h-[28px]"
+            className="z-[-1] absolute top-0 lg:left-[3%] md:left-[-30px] h-[18px] md:h-[28px]"
           />
           <img
-            src={circle}
+            src={add}
             alt=""
             className="z-[-1] absolute bottom-0 right-0 h-[42px] md:h-[60px]"
           />
           <img
-            src={add}
+            src={circle}
             alt=""
             className="z-[-1] absolute top-0 right-0 h-[40px] md:h-[50px]"
           />

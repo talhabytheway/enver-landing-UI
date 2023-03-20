@@ -46,54 +46,54 @@ function Services() {
       <img
         src={add}
         alt=""
-        className="z-[-1] absolute bottom-0 right-[-15px] h-[28px] md:h-[36px] lg:h-[42px] lg:rotate-12"
+        className="z-[-1] absolute bottom-5 md:bottom-10 lg:bottom-20 right-[-15px] h-[28px] md:h-[36px] lg:h-[42px] lg:rotate-[30deg]"
       />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-20">
-        <div className="text-center px-12 xl:px-16 font-semibold">
-          <img src={dev} alt="" className="mx-auto" />
-          <h5 className="text-6 md:text-8 font-bold mb-3 mt-2">Development</h5>
-          <p className="opacity-70">
+        <div className="text-center px-8 font-semibold">
+          <img src={dev} alt="" className="mx-auto w-[69px]" />
+          <h5 className="text-[24px] md:text-[26px] lg:text-[26px] font-bold my-5">Development</h5>
+          <p className="font-light md:text-[20px] opacity-70">
             Create a platform with the best and coolest quality from us.
           </p>
         </div>
-        <div className="text-center max-w-[600px] mx-auto px-12 lg:px-16 font-semibold">
-          <img src={uiDesign} alt="" className="mx-auto" />
-          <h5 className="text-6 md:text-8 font-bold mb-3 mt-2">UI/UX Design</h5>
-          <p className="opacity-70">
+        <div className="text-center max-w-[600px] mx-auto px-8 font-semibold">
+          <img src={uiDesign} alt="" className="mx-auto w-[69px]" />
+          <h5 className="text-[24px] md:text-[26px] lg:text-[26px] font-bold my-5">UI/UX Design</h5>
+          <p className="font-light md:text-[20px] opacity-70">
             We provide UI/UX Design services, and of course with the best
             quality
           </p>
         </div>
-        <div className="text-center max-w-[600px] mx-auto px-12 lg:px-16 font-semibold">
-          <img src={graphik} alt="" className="mx-auto" />
-          <h5 className="text-6 md:text-8 font-bold mb-3 mt-2">
+        <div className="text-center max-w-[600px] mx-auto px-8 font-semibold">
+          <img src={graphik} alt="" className="mx-auto w-[69px]" />
+          <h5 className="text-[24px] md:text-[26px] lg:text-[26px] font-bold my-5">
             Graphik Design
           </h5>
-          <p className="opacity-70">
+          <p className="font-light md:text-[20px] opacity-70">
             We provide Graphic Design services, with the best designers
           </p>
         </div>
-        <div className="text-center max-w-[600px] mx-auto px-12 lg:px-16 font-semibold">
-          <img src={motion} alt="" className="mx-auto" />
-          <h5 className="text-6 md:text-8 font-bold mb-3 mt-2">
+        <div className="text-center max-w-[600px] mx-auto px-8 font-semibold">
+          <img src={motion} alt="" className="mx-auto w-[69px]" />
+          <h5 className="text-[24px] md:text-[26px] lg:text-[26px] font-bold my-5">
             Motion Graphik
           </h5>
-          <p className="opacity-70">
+          <p className="font-light md:text-[20px] opacity-70">
             Create a platform with the best and coolest quality from us.
           </p>
         </div>
-        <div className="text-center max-w-[600px] mx-auto px-12 lg:px-16 font-semibold">
-          <img src={photography} alt="" className="mx-auto" />
-          <h5 className="text-6 md:text-8 font-bold mb-3 mt-2">Photography</h5>
-          <p className="opacity-70">
+        <div className="text-center max-w-[600px] mx-auto px-8 font-semibold">
+          <img src={photography} alt="" className="mx-auto w-[69px]" />
+          <h5 className="text-[24px] md:text-[26px] lg:text-[26px] font-bold my-5">Photography</h5>
+          <p className="font-light md:text-[20px] opacity-70">
             We provide Photography services, and of course with the best quality
           </p>
         </div>
-        <div className="text-center max-w-[600px] mx-auto px-12 lg:px-16 font-semibold">
-          <img src={videography} alt="" className="mx-auto" />
-          <h5 className="text-6 md:text-8 font-bold mb-3 mt-2">Videography</h5>
-          <p className="opacity-70">
+        <div className="text-center max-w-[600px] mx-auto px-8 font-semibold">
+          <img src={videography} alt="" className="mx-auto w-[69px]" />
+          <h5 className="text-[24px] md:text-[26px] lg:text-[26px] font-bold my-5">Videography</h5>
+          <p className="font-light md:text-[20px] opacity-70">
             Create a platform with the best and coolest quality from us.
           </p>
         </div>

@@ -2,12 +2,12 @@ import React from "react";
 
 function Video() {
   return (
-    <div className="my-10">
-      <section className="grid gap-4 grid-cols-1 md:grid-cols-2">
-        <h3 className="text-[2.5rem] md:text-[3rem] lg:text-[4rem] font-mont font-bold leading-snug mt-5 md:mb-5">
+    <div className="mb-10">
+      <section className="grid gap-4 grid-cols-1 md:grid-cols-2 mt-20 mb-12">
+        <h3 className="text-[36px] md:text-[46px] lg:text-[60px] font-mont font-bold leading-snug mt-5 md:mb-5">
           Why Enver Is The Best Choice?
         </h3>
-        <p className="text-[1rem] md:text-[1.25rem] lg:text-[1.5rem] font-semibold font-nunito opacity-70 mb-5 md:mt-5">
+        <p className="text-[16px] md:text-[18px] lg:text-[21px] lg:font-semibold font-nunito opacity-70 mb-5 md:mt-5">
           Watch this one minute video so you understand why you should use our
           services!
         </p>
