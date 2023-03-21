@@ -13,7 +13,7 @@ function Header() {
       }`}
     >
       <div
-        className={`xl:mx-auto px-[1.5rem] md:px-[3rem] lg:px-[6rem] lg:max-w-[1440px] font-nunito flex py-5 justify-between text-[18px] font-semibold select-none transition-all ease-linear duration-650`}
+        className={`xl:mx-auto px-[1.5rem] md:px-[3rem] lg:px-[6rem] max-w-[1280px] xl:max-w-[1440px] xxl:max-w-[1600px] font-nunito flex py-5 justify-between text-[18px] font-semibold select-none transition-all ease-linear duration-650`}
       >
         <img
           src={logo}

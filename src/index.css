@@ -6,6 +6,8 @@
 body {
   margin: 0;
   background-color: #19191B;
+  /* width: auto !important; */
+  overflow-x: hidden !important;
   color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, 'Open Sans';
   -webkit-font-smoothing: antialiased;
